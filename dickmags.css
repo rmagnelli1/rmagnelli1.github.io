@@ -12,7 +12,6 @@
          url('raconteurnf-webfont.svg#raconteur_nfregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -28,5 +27,8 @@
          url('parisish-webfont.svg#parisishregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+body {
+	padding-top: 70px;
+	}
