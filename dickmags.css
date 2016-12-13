@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(https://fonts.gstatic.com/s/inconsolata/v15/BjAYBlHtW3CJxDcjzrnZCI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v4/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	padding-top: 58px;
+	background-color: #D7F9F1;
+	}
+	
+nav {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	padding-left: 15px;
+}
+
+p {
+	font-family: 'Inconsolata', monospace;
+	padding-left: 15px;
+}
+
+.navbar-custom {
+    background-color: #80B79A;
+	border-bottom-width: 4px;
+	border-bottom-style: inset;
+	border-color: #111111;
+	border-top-width: 4px;
+	border-top-style: inset;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    background-color:#A3BCF9;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+li.navbar-custom:hover {
+  background-color: transparent;
+}
