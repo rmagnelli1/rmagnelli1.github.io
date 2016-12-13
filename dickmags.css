@@ -16,8 +16,12 @@
 }
 
 body {
+<<<<<<< HEAD
 	padding-top: 58px;
 	background-color: #D7F9F1;
+=======
+	padding-top: 70px;
+>>>>>>> origin/master
 	}
 	
 nav {
@@ -26,16 +30,23 @@ nav {
 
 h1 {
 	font-family: 'Roboto Mono', monospace;
+<<<<<<< HEAD
 	padding-left: 15px;
+=======
+>>>>>>> origin/master
 }
 
 p {
 	font-family: 'Inconsolata', monospace;
+<<<<<<< HEAD
 	padding-left: 15px;
+=======
+>>>>>>> origin/master
 }
 
 .navbar-custom {
     background-color: #80B79A;
+<<<<<<< HEAD
 	border-bottom-width: 4px;
 	border-bottom-style: inset;
 	border-color: #111111;
@@ -57,4 +68,18 @@ p {
 
 li.navbar-custom:hover {
   background-color: transparent;
+=======
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+>>>>>>> origin/master
 }
