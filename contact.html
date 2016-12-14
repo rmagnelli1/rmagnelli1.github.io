@@ -43,6 +43,47 @@
 		</div>
 		<div class="col-sm-6">
 		<h1>Contact Me</h1>
+			<form name="contactForm" method="post" action="sendEmail.php">
+				<table class="table">
+					<thead>
+						<tr>
+							<td valign="top">
+								<label for="name">Name</label>
+							</td>
+							<td valign="top">
+								<input type="text" name="name" maxLength="60" size="35">
+							</td>
+						</tr>
+					</thead>
+					<thead>
+						<tr>
+							<td valign="top">
+								<label for="emailA">Email Address</label>
+							</td>
+							<td valign="top">
+								<input type="text" name="email" maxLength="60" size="35">
+							</td>
+						</tr>
+						<thead>
+						<tr>
+							<td valign="top">
+								<label for="message">Message</label>
+							</td>
+							<td valign="top">
+								<textarea name="message" maxLength="2000" cols="37" rows="8"></textarea>
+							</td>
+						</tr>
+						<thead>
+						<tr>
+							<td valign="top">
+								<input type="submit" value="Submit"><a href="sendEmail.php"></a>
+							</td>
+						</tr>
+					</thead>
+					</thead>
+					</thead>
+				</table>
+			</form>
 		</div>
 		<div class="col-sm-4">
 		</div>
