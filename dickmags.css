@@ -16,7 +16,8 @@
 }
 
 body {
-	padding-top: 70px;
+	padding-top: 58px;
+	background-color: #D7F9F1;
 	}
 	
 nav {
@@ -25,14 +26,37 @@ nav {
 
 h1 {
 	font-family: 'Roboto Mono', monospace;
+	padding-left: 15px;
 }
 
 p {
 	font-family: 'Inconsolata', monospace;
+	padding-left: 15px;
 }
 
 .navbar-custom {
     background-color: #80B79A;
+	border-bottom-width: 4px;
+	border-bottom-style: inset;
+	border-color: #111111;
+	border-top-width: 4px;
+	border-top-style: inset;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    background-color:#A3BCF9;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+li.navbar-custom:hover {
+  background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > li > a {
