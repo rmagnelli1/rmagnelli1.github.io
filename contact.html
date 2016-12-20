@@ -37,58 +37,49 @@
 
 <div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-12">
+	<div class="col-m-12">
 			<img src="images/sun.png" width="1900" height="400"
 			alt="Macro image of a grasshopper" title="Macro image of a grasshopper" class="img-responsive">
 		</div>
-		<div class="col-sm-6">
+		<div class="col-m-6">
 		<h1>Contact Me</h1>
-			<form name="contactForm" method="post" action="sendEmail.php">
+			<form method="POST" action="http://formspree.io/satyrelfheim@gmail.com">
 				<table class="table">
 					<thead>
 						<tr>
 							<td valign="top">
-								<label for="name">Name</label>
-							</td>
-							<td valign="top">
-								<input type="text" name="name" maxLength="60" size="35">
+								<input type="email" name="email" placeholder="Email Address">
 							</td>
 						</tr>
 					</thead>
 					<thead>
 						<tr>
 							<td valign="top">
-								<label for="emailA">Email Address</label>
-							</td>
-							<td valign="top">
-								<input type="text" name="email" maxLength="60" size="35">
-							</td>
-						</tr>
-						<thead>
-						<tr>
-							<td valign="top">
-								<label for="message">Message</label>
-							</td>
-							<td valign="top">
-								<textarea name="message" maxLength="2000" cols="37" rows="8"></textarea>
-							</td>
-						</tr>
-						<thead>
-						<tr>
-							<td valign="top">
-								<input type="submit" value="Submit"><a href="sendEmail.php"></a>
+								<input type="text" name="name" placeholder="Full Name">
 							</td>
 						</tr>
 					</thead>
+					<thead>
+						<tr>
+							<td valign="top">
+								<textarea name="message" placeholder="Message"></textarea>
+							</td>
+						</tr>
 					</thead>
+					<thead>
+						<tr>
+							<td valign="top">
+								<button type="submit">Send</button>
+							</td>
+						</tr>
 					</thead>
 				</table>
 			</form>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-m-4">
 		</div>
-	</div>
-	</div>
-
+		</div>
+</div>
+	
 </body>
 </html>
