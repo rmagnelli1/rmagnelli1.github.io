@@ -43,6 +43,12 @@ p {
 	border-top-style: inset;
 }
 
+ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
 .navbar-custom .navbar-nav > li > a {
     color:#ffffff;
 }
